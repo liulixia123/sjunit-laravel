@@ -1,0 +1,13 @@
+{
+    "name": "lixia18/JunitLaravel",
+    "description": "ceshi",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lixia18\\JunitLaravel\\": "src"
+        }
+    }
+}
