@@ -1,5 +1,5 @@
 {
-    "name": "lixia18/JunitLaravel",
+    "name": "lisa18/junit-laravel",
     "description": "ceshi",
     "type": "library",
     "license": "MIT",
@@ -7,7 +7,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Lixia18\\JunitLaravel\\": "src"
+            "Lisa18\\JunitLaravel\\": "src"
         }
     }
 }
