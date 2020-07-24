@@ -20,7 +20,7 @@ class SJunitServiceProvider extends ServiceProvider
         $this->registerRoutes();
         // 指定的组件的名称，自定义的资源目录地址
         $this->loadViewsFrom(
-            __DIR__.'/../../resources/views', 'sjunit'
+            __DIR__.'/../../resources/views', 'junit'
         );
     }
 
@@ -45,7 +45,7 @@ class SJunitServiceProvider extends ServiceProvider
             // 是定义路由的命名空间
             'namespace' => 'Lisa18\JunitLaravel\Http\Controllers',
             // 这是前缀
-            'prefix' => 'sjunit',
+            'prefix' => 'junit',
             // 这是中间件
             'middleware' => 'web',
         ];
